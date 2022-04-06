@@ -9,7 +9,7 @@
     "lint": "next lint",
     "docker:build": "docker build . --tag nextjs-env-management-example",
     "docker:run": "docker run -p 3000:3000 --rm -it nextjs-env-management-example",
-    "test": "jest"
+    "test": "NP_ENV=local jest"
   },
   "dependencies": {
     "next": "12.1.4",
